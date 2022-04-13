@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=0.575153374">
+	<link rel="icon" href="./logo.png">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts/secrets.js"></script>
+	<script src="./scripts/tba.js"></script>
+	<script src="./scripts/script.js"></script>
+	<title>FRC Kil-A-Bytes Event Tracker</title>
+</head>
+<body>
+	<div>
+		<h1>Event Stream</h1>
+		<iframe id="event-stream" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+	</div>
+	<div id="next-match-wrapper">
+		<h1 id="next-match-label">Next Match</h1>
+		<h3 id="next-match-time"></h3>
+		<!--<h3 id="current-match"></h3>-->
+		<div id="alliances-wrapper">
+			<div id="blue-alliance" class="alliance">
+				<h2>Blue Alliance</h2>
+				<table class="team-table">
+					<tr>
+						<th>Team #</th>
+						<th>Ranking</th>
+						<!--<th>OPR</th>
+						<th>DPR</th>-->
+					</tr>
+
+					<tr>
+						<td class="team-key"></td>
+						<td class="team-rank"></td>
+						<!--<td></td>
+						<td></td>-->
+					</tr>
+					<tr>
+						<td class="team-key"></td>
+						<td class="team-rank"></td>
+					</tr>
+					<tr>
+						<td class="team-key"></td>
+						<td class="team-rank"></td>
+					</tr>
+				</table>
+			</div>
+			<div id="red-alliance" class="alliance">
+				<h2>Red Alliance</h2>
+				<table class="team-table">
+					<tr>
+						<th>Team #</th>
+						<th>Ranking</th>
+					</tr>
+
+					<tr>
+						<td class="team-key"></td>
+						<td class="team-rank"></td>
+					</tr>
+					<tr>
+						<td class="team-key"></td>
+						<td class="team-rank"></td>
+					</tr>
+					<tr>
+						<td class="team-key"></td>
+						<td class="team-rank"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
