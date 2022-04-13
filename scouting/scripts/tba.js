@@ -1,6 +1,6 @@
 class TBA {
 	constructor(event, team=null) {
-		this.auth = window.TBA_AUTH;
+		this.auth = 'CFIQ1KB5rtaTv2cg8MDxiJWhL7OVyvQPkgN5ztGzXLDn6ZVCRsamMHqbCVbwZch3';
 		this.baseURL = 'https://www.thebluealliance.com/api/v3';
 
 		this.event = event;
