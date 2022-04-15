@@ -1,6 +1,6 @@
 // @TODO: add team names
 
-const EVENT = '2022incol';
+const EVENT = '2022incmp';
 const TEAM = 'frc1024';
 var client = new TBA(EVENT, TEAM);
 
@@ -36,6 +36,7 @@ function set_stream_URL() {
 	client.get_event().then(data => {
 		if (data.webcasts.length > 0) {
 			let webcasts = data.webcasts;
+			console.log(webcasts);
 			for (webcast of webcasts) {
 				if (webcast.type == "twitch") {
 					let channelID = webcast.channel;
