@@ -4,7 +4,7 @@ const EVENT = '2022incol';
 const TEAM = 'frc1024';
 var client = new TBA(EVENT, TEAM);
 
-const PARENT_URL = 'qdtroemner.github.io';
+const PARENT_URL = '1024programming.github.io';
 
 var comp_level_enum = {
 	"qm": "qualification",
